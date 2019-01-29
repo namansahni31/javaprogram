@@ -36,4 +36,4 @@ public class TestCircleStatic
 	System.out.println("the number of objects" +CircleStatic.getnumberofobjects());
 	circle2.findarea();
 	}
-}
+}-

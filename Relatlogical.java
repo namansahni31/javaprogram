@@ -1,4 +1,4 @@
-class relatlogical {
+class Relatlogical {
     public static void main(String[] args) {
     	
     	int number1 = 3, number2 = 4;

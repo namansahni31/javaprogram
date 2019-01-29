@@ -6,7 +6,7 @@ class Array1 {
 	int i,count=0;
 	Scanner no =new Scanner(System.in);
 	System.out.println("Enter array");
-	for(i=0;i<10;i++)
+	for(i=0;i<10;i++)  
 	{
 	x[i] =no.nextInt();
 	}
@@ -21,7 +21,7 @@ class Array1 {
 	{
 	   if(x[i]==y)
 	   {
-	   System.out.println("y is at position :" +y " " +i");
+	   System.out.println("y is at position :" +y " " +i);
 	   count=count+1;
 	   }
 

@@ -2,8 +2,8 @@ class Box {
 	double width,w;
 	double height,h;
 	double depth,d;
-	Box(double width,double h,double d) {
-	this.width=width;
+	Box(double w,double h,double d) {
+	this.width=w;
 	this.height=h;
 	this.depth=d;
 	}

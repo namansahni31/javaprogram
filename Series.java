@@ -2,7 +2,11 @@ import java.util.*;
 class Series
 { 
 public static int fact(int index)
-    {
+    { 
+
+
+
+        
         int f = 1, i;
         for(i = 1; i <= index; i ++)
         {
