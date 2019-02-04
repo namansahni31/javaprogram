@@ -1,39 +1,44 @@
-class Qualification
-
+package com.ncu.assignment;
+public class Qualification
 {
-
-
-
 	String qualName;
-
 	String university;
-
 	String institute;
-
 	float cgpa;
-
-  Qualification(String qualName, String university, String institute, float cgpa)
-
-    { 
-
-        this.qualName = qualName;
-
-        this.university = university;
-
-        this.institute = institute;
-
-  		this.cgpa = cgpa;
-
-  	}
-
-  public String displayQualifications()
-
-  {
-
-    System.out.println("Qualification Name: " + qualName + "\nUniversity Name: " + university + "\nInstitute Name: " + institute + "\nCGPA: " + cgpa);
-
-    return "";
-
-  }
-
+	
+	public void setqualName(String qualName)
+	{
+		this.qualName=qualName;
+	}
+	public String getqualName()
+	{
+		return qualName;
+	}
+	
+	public void setuniversity(String university)
+	{
+		this.university=university;
+	}
+	public String getuniversity()
+	{
+		return university;
+	}
+	
+	public void setinstitute(String institute)
+	{
+		this.institute=institute;
+	}
+	public String getinstitute()
+	{
+		return institute;
+	}
+	
+	public void setcgpa(float cgpa)
+	{
+		this.cgpa=cgpa;
+	}
+	public float getcgpa()
+	{
+		return cgpa;
+	}
 }
